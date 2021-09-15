@@ -108,12 +108,9 @@
 #define W 4*Q 
 #define Z E+Q 
 
-#define L  3  
+#define L  9  
 void setup() {
-  pinMode(L, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(9, OUTPUT);
-  digitalWrite(9, LOW);
+  pinMode(L, OUTPUT);  //pin 9
 }
 void loop() {
   tone(L, E5, Z); 
